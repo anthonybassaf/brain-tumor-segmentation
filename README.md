@@ -1,1 +1,1 @@
-# brain-tumor-segmentation
+# HeadHunter - Brain Tumor Detector
