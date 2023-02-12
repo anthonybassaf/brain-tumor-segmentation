@@ -34,5 +34,21 @@ Here is a step-by-step explanation of how the UNet architecture works:
 
 UNet has proven to be a highly effective architecture for image segmentation tasks and has been used in various medical imaging applications such as brain tumor segmentation and retinal vessel segmentation. Its U-shaped structure and use of skip connections allow it to effectively balance the tradeoff between spatial resolution and feature abstraction, making it a powerful tool for image segmentation tasks.
 
+# Application Setup
+
+## 1- Clone this repository
+Use `git clone` command to clone this repository on your own device or directory.
+
+## 2- Create a Conda Environment
+Use the command `conda create --name {ENV_NAME}` to create an environment and `conda activate {ENV_NAME}` to activate it
+
+## 3- Installing Dependencies
+Use the command `conda install pip` to install and use pip in your environment
+
+Run the command `pip install -r requirements.txt` to install the required packages to run the app
+
+## 4- Run Application
+Run the command `streamit run src/app.py` to run your streamlit application on your browser
+
 
 
